@@ -1,0 +1,98 @@
+ :root{
+    --background-color: rgb(226, 220, 232);
+    --color: rgb(77, 16, 134);
+ }
+    h1{
+    text-align: center;
+    color: var(--color);
+ }
+ @media screen and (max-width: 768px) {
+  /* Adjust margins, padding, font sizes, etc. */
+  /* Example: */
+  .Flex {
+    flex-direction: column;
+  }
+  /* Add more styles as needed */
+}
+ .Progress{
+  height: 5px;
+  width: 100%;
+  background-color: rgb(195, 156, 233);
+  margin: 0;
+  padding: 0;
+  animation: load 1s ease-in-out 1;
+ }
+ @keyframes load {
+  0%{
+    width: 0;
+  }
+  50%{
+    width:60%;
+  }
+  100%{
+    width: 100%;
+  }
+  
+ }
+ .First{
+    color:var(--color);
+    background-color: var(--background-color); 
+    margin:29px 86px;
+    font-size: 23px;
+    padding: -4px;
+    display: flex;
+    justify-content: space-around;
+ }
+ /* span{
+   display: inline-block;
+   padding-right: 2em;
+ } */
+ h2{
+   color: var(--color);
+   margin-left: 141px;
+ }
+ .about{
+  display: inline-block;
+  margin: 1px 141px;
+ }
+ul{
+  margin-left: 141px;
+}
+#Edu{
+  display:flexbox
+}
+/* .Text{
+  text-align: center;
+} */
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Katibeh", serif;
+  height: 12vh;
+  margin:29px 86px;
+  background-color: rgb(226, 220, 232);
+  color: var(--color);
+  font-size: 21px;
+}
+p{
+  cursor: pointer;
+}
+/* .Flex1{
+  border: 3px;
+  border-color: blueviolet;
+} */
+.Flex{
+  display: inline-flex;
+}
+.fx1,.fx3{
+  width: 120px;
+  height: auto;
+  column-gap: 23px;
+  margin: 17px;
+  padding-right: 23px;
+  background-color: rgb(214, 211, 219);
+}
+/* .Flex1{
+  display: inline-flex;
+} */
